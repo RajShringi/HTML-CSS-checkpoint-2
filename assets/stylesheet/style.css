@@ -138,12 +138,27 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
+  color: #595959;
 }
 a {
   text-decoration: none;
 }
 img {
   width: 100%;
+}
+h2 {
+  display: inline-block;
+  color: #474747;
+  font-size: 32px;
+  font-weight: 600;
+  border-bottom: 1px solid #595959;
+  text-transform: uppercase;
+}
+.margin-bottom {
+  margin-bottom: 32px;
+}
+.section-margin {
+  margin: 90px 0;
 }
 .container {
   max-width: 1200px;
@@ -270,4 +285,37 @@ img {
 }
 .circle-active {
   background: #333;
+}
+
+/* Services Section */
+.services-section {
+  text-align: center;
+}
+
+.services-section p {
+  padding: 16px 0;
+  text-transform: uppercase;
+}
+.service {
+  width: 23%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.code {
+  background: #5cbd9d;
+}
+.paper-plane {
+  background: #e67f31;
+}
+.landmark {
+  background: #3998db;
+}
+.flask {
+  background: #68cd73;
+}
+.service a {
+  color: #fff;
+  font-size: 50px;
 }
