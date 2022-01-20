@@ -157,8 +157,12 @@ h2 {
 .margin-bottom {
   margin-bottom: 32px;
 }
+.margin-bottom p {
+  padding: 16px 0;
+  text-transform: uppercase;
+}
 .section-margin {
-  margin: 90px 0;
+  margin: 200px 0;
 }
 .container {
   max-width: 1200px;
@@ -288,14 +292,11 @@ h2 {
 }
 
 /* Services Section */
-.services-section {
+.services-section,
+.portfolio-section {
   text-align: center;
 }
 
-.services-section p {
-  padding: 16px 0;
-  text-transform: uppercase;
-}
 .service {
   width: 23%;
   height: 300px;
@@ -318,4 +319,13 @@ h2 {
 .service a {
   color: #fff;
   font-size: 50px;
+}
+
+/* Portfolio-section */
+.portfolio-section .flex {
+  flex-wrap: wrap;
+}
+.portfolio-img {
+  width: 22%;
+  margin-bottom: 16px;
 }
