@@ -176,6 +176,21 @@ h3 {
   width: 90%;
   margin: 0 auto;
 }
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #ea523e;
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #fff;
+  color: #ea523e;
+}
 
 /* Flex */
 .flex {
@@ -262,22 +277,6 @@ h3 {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 500;
-}
-.btn {
-  display: inline-block;
-  color: #fff;
-  background: #ea523e;
-  padding: 16px 32px;
-  font-weight: 700;
-  font-size: 16px;
-  text-transform: uppercase;
-  border: 0;
-  border-radius: 6px;
-  cursor: pointer;
-}
-.btn:hover {
-  background: #fff;
-  color: #ea523e;
 }
 
 /* Slider */
