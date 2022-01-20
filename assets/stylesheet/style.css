@@ -146,13 +146,17 @@ a {
 img {
   width: 100%;
 }
-h2 {
+h2,
+h3 {
   display: inline-block;
   color: #474747;
   font-size: 32px;
   font-weight: 600;
   border-bottom: 1px solid #595959;
   text-transform: uppercase;
+}
+h3 {
+  font-size: 24px;
 }
 .margin-bottom {
   margin-bottom: 32px;
@@ -303,6 +307,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 4px 12px #595959;
 }
 .code {
   background: #5cbd9d;
@@ -328,4 +333,63 @@ h2 {
 .portfolio-img {
   width: 22%;
   margin-bottom: 16px;
+}
+
+/* Team-section */
+.team-section header {
+  text-align: center;
+}
+.team-member {
+  width: 22%;
+}
+.team-member img {
+  border-radius: 50%;
+}
+.about-team {
+  margin-top: 64px;
+}
+.about-team header p {
+  padding: 16px 0 64px 0;
+}
+.team-skills-desc {
+  width: 60%;
+}
+.team-skills-desc p {
+  margin-bottom: 28px;
+}
+.team-tools {
+  width: 30%;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.grey {
+  width: 100%;
+  height: 35px;
+  background: #e7e7e7;
+  margin-bottom: 16px;
+}
+.photoshop,
+.html-css,
+.development,
+.marketing {
+  width: 90%;
+  height: 35px;
+  background: #ea523e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 6px 6px 20px;
+}
+
+.html-css,
+.marketing {
+  width: 80%;
+}
+.development {
+  width: 70%;
+}
+.too-css {
+  color: #ea523e;
 }
