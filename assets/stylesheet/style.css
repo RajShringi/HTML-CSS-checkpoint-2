@@ -134,6 +134,9 @@ table {
 *::after {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-size: 16px;
   line-height: 1.5;
@@ -271,7 +274,6 @@ h3 {
   border: 0;
   border-radius: 6px;
   cursor: pointer;
-  /* box-shadow: 0 4px 12px rgba(234, 82, 62, 0.3); */
 }
 .btn:hover {
   background: #fff;
@@ -438,4 +440,21 @@ h3 {
 .btn-submit:hover {
   color: #fff;
   background: #ea523e;
+}
+
+/* Footer */
+footer {
+  padding: 24px;
+}
+footer small {
+  font-size: 14px;
+}
+.top {
+  font-size: 14px;
+  padding: 12px 24px;
+  border-radius: 0;
+}
+.top:hover {
+  background: #ea523e;
+  color: #fff;
 }
