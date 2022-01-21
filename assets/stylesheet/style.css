@@ -215,7 +215,7 @@ h3 {
 }
 .logo span {
   vertical-align: middle;
-  font-size: 28px;
+  font-size: 32px;
   color: #ea523e;
   margin-left: 16px;
   font-weight: 900;
@@ -456,4 +456,68 @@ footer small {
 .top:hover {
   background: #ea523e;
   color: #fff;
+}
+
+/* #### Gallery Page #### */
+/* Gallery aside */
+aside {
+  background: #ea523e;
+  color: #fff;
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  padding: 32px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-page-nav {
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.gallery-page-nav .logo img {
+  width: 100px;
+}
+.gallery-page-nav .logo span {
+  color: #fff;
+  margin: 0;
+}
+.home {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin-left: 64px;
+  padding: 3px;
+}
+.home:hover {
+  background: #fff;
+  color: #ea523e;
+}
+
+.gallery-aside-article h2 {
+  color: #fff;
+  text-transform: none;
+  font-size: 28px;
+  border: 0;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.gallery-aside-article p {
+  color: #3d2927;
+}
+
+.gallery-social-links {
+  margin-top: 64px;
+}
+.gallery-social-links a {
+  display: inline-block;
+  color: #fff;
+  margin-left: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
 }
